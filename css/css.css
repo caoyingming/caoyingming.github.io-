@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	font-size: 100px;
+}
+html,body{
+	font-size: 14px;
+	font-family: Microsoft YaHei,Arial;
+}
+li{
+	list-style: none
+}
+.content{
+	width: 100%;
+	height: 100%;
+
+}
+.content img.bg{
+	position: absolute;
+	width: 100%;
+	
+	z-index: -1;
+}
+.content h1{
+	font-size: 0.48rem;
+	color: #fff;
+	padding-top: 1.32rem;
+	padding-left: 0.6rem;
+}
+.content h1:after{
+	content: "";
+	display: block;
+	background: #1de9b6;
+	width: 0.77rem;
+	height:0.06rem;
+	margin-top: 0.2rem;
+}
+.content h2{
+	font-size: 0.48rem;
+	color: #fff;
+	padding-top: 0.68rem;
+	padding-left: 0.6rem;
+}
+.content h2:after{
+	content: "";
+	display: block;
+	background: #2d8eff;
+	width: 0.77rem;
+	height:0.06rem;
+	margin-top: 0.2rem;
+}
+.content .box1{
+	padding-left: 1rem;
+	width: 5.4rem;
+	padding-bottom: 0.4rem;
+	background: rgba(255, 255, 255,0.1);
+	border-radius: 10px;
+	margin: 0.3rem auto 0;
+	position: relative;
+}
+.content .box1 .uls{
+	float: left;
+}
+.content .box1 .bg-cid{
+	width: 4.33rem;
+	height: 2.24rem;
+	background: url('../image/cid.png') no-repeat center;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+    margin-left: -2.17rem;
+    top: 50%;''
+    margin-top: -1.12rem;
+    z-index: -1;
+}
+.content .box1 .bg-btcmap{
+	width: 6.52rem;
+	height: 1.58rem;
+	background: url('../image/btcmap.png') no-repeat center;
+	background-size: 100% 100%;
+	position: absolute;
+	left: 50%;
+    margin-left: -3.26rem;
+    bottom: 0;
+    z-index: -1;
+}
+.content .box1 .uls1{
+	margin-right: 1rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.6rem;
+}
+.content .box1 .uls2{
+	margin-top: 0.5rem;
+	margin-bottom: 0.6rem;
+}
+
+.content .box1 .uls3{
+	margin-right: 1rem
+}
+.content .box1 .uls li{
+	color: #fff;
+	font-size: 0.18rem;
+}
+.content .box1 .uls .lisC{
+	color: #1de9b6;
+	font-size: 0.54rem;
+	margin-top: 0.2rem;
+} 
+.content .box1 .uls .user:after{
+	content: "";
+	display: inline-block;
+	width: 0.4rem;
+	height: 0.3rem;
+	background: url('../image/user.png') no-repeat top center;
+	background-size: 100% 100%;
+	margin-left: 0.1rem;
+}
+.content .box1 .uls .user1:after{
+	content: "";
+	display: inline-block;
+	width: 0.28rem;
+	height: 0.3rem;
+	background: url('../image/user1.png') no-repeat top center;
+	background-size: 100% 100%;
+	margin-left: 0.1rem;
+}
+.content .box1 .uls .yh:after{
+	content: "";
+	display: inline-block;
+	width: 0.26rem;
+	height: 0.3rem;
+	background: url('../image/yh.png') no-repeat top center;
+	background-size: 100% 100%;
+	margin-left: 0.1rem;
+}
+.content .box1 .uls .gd1:after{
+	content: "";
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.22rem;
+	background: url('../image/gd1.png') no-repeat top center;
+	background-size: 100% 100%;
+	margin-left: 0.1rem;
+}
+.content .box1 .uls .leij:after{
+	content: "";
+	display: inline-block;
+	width: 0.24rem;
+	height: 0.26rem;
+	background: url('../image/leij.png') no-repeat top center;
+	background-size: 100% 100%;
+	margin-left: 0.1rem;
+}
+
+.content .box1 .uls .user2:after{
+	content: "";
+	display: inline-block;
+	width: 0.3rem;
+	height: 0.26rem;
+	background: url('../image/user2.png') no-repeat top center;
+	background-size: 100% 100%;
+	margin-left: 0.1rem;
+}
+
+.content .box1 .uls-2 .lisC{
+	color: #2d8eff;
+	font-size: 0.54rem;
+	margin-top: 0.2rem;
+} 
